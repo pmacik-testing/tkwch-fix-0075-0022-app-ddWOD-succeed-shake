@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-qyto
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0022-tenant/tkwch-fix-0075-0022-app/devfile-sample-qyto@sha256:bdbf27ed2284ee866fa76f0084e15b33011b8ba5fef81008b4a43692e06f3531
         name: my-nodejs
         ports:
         - containerPort: 3001
